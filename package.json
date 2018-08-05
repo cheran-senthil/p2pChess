@@ -1,0 +1,38 @@
+{
+  "name": "p2pchess",
+  "version": "1.0.0",
+  "description": "p2p Chess",
+  "main": "lib/main.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheran-Senthil/p2pChess.git"
+  },
+  "keywords": [
+    "p2p",
+    "chess"
+  ],
+  "author": "Cheran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cheran-Senthil/p2pChess/issues"
+  },
+  "homepage": "https://github.com/Cheran-Senthil/p2pChess#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "libp2p": "^0.23.0",
+    "libp2p-kad-dht": "^0.10.1",
+    "libp2p-mdns": "^0.12.0",
+    "libp2p-mplex": "^0.8.0",
+    "libp2p-railing": "^0.9.2",
+    "libp2p-secio": "^0.10.0",
+    "libp2p-spdy": "^0.12.1",
+    "libp2p-tcp": "^0.12.1"
+  }
+}
